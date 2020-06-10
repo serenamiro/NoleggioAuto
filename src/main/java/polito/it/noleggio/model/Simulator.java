@@ -65,7 +65,7 @@ public class Simulator {
 		while(!this.queue.isEmpty()) {
 			Event e = this.queue.poll();
 			// il poll() garantisce che l'estrazione dell'evento avverrà in ordine di data
-			// System.out.println(e);
+			System.out.println(e);
 			processEvent(e);			
 		}
 		
